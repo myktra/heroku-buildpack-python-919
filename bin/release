@@ -10,7 +10,7 @@ MANAGE_FILE=${MANAGE_FILE:2}
 cat <<EOF
 ---
 config_vars:
-
+    SWIG_LIB: /app/.919/swig/share/swig/2.0.9/
 EOF
 
 
