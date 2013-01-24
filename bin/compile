@@ -98,7 +98,7 @@ if [ ! -d $CACHE_DIR/swig ]; then
   curl -O http://rover.boldium.storyandstructure.com.s3.amazonaws.com/swig-2.0.9.tar >/dev/null 2>&1
   echo "-----> Installing ..."
   tar xvf swig-2.0.9.tar >/dev/null 2>&1
-  mv swig $CACHE_DIR/swig
+  mv swig-2.0.9 $CACHE_DIR/swig
   rm swig-2.0.9.tar
   echo "SWIG installed" | indent
 fi
