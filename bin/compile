@@ -182,7 +182,7 @@ set-default-env PYTHONPATH /app/
 source $BIN_DIR/steps/hooks/post_compile
 
 #ROVER_BINARY="http://rover.boldium.storyandstructure.com.s3.amazonaws.com/dbl.tgz"
-ROVER_BINARY="http://rover.boldium.storyandstructure.com.s3.amazonaws.com/petrecognition-0.1.tgz"
+ROVER_BINARY="http://rover.boldium.storyandstructure.com.s3.amazonaws.com/libpetrec-0.1.tgz"
 ROVER_VENDOR="vendor/rover"
 
 # vendor rover
